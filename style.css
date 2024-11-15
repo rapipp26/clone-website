@@ -1,0 +1,229 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 99999;
+}
+
+nav .firstBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .firstBar .logo{
+    cursor: pointer;
+}
+
+nav .firstBar input.search{
+    width: 380px;
+    height: 30px;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 2px;
+    margin-left: 200px;
+}
+
+nav .firstBar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .firstBar ul li{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(116, 116, 116);
+}
+
+nav .firstBar ul li:hover{
+    color: red;
+}
+
+nav .secondBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav h5{
+    margin-left: 20px;
+    cursor: pointer;
+    color: rgb(116, 116, 116);
+}
+
+nav h5:hover{
+    color: red
+}
+
+nav button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+nav button.a {
+    background-color: red;
+}
+
+nav button.b{
+    background-color: rgb(0, 170, 0);
+}
+
+/* KONTEN */
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+}
+main div.banner img{
+    width: 1440px;
+}
+
+main div.banner {
+    display: flex;
+    justify-content: center;
+}
+
+main .kontainerKonten {
+    width: 1100px;
+}
+
+main .kontainerKonten h3{
+    color: red;
+}
+
+main .kontainerKonten .konten1 .gambar img{
+    border: 1px solid rgb(183, 183, 183);
+    width: 210px;
+    filter: grayscale(100%);
+    cursor: pointer;
+    margin: 2px;
+}
+
+main .kontainerKonten .konten1 .gambar img:hover{
+    filter: grayscale(0%);
+    border: 1px solid black;
+}
+
+main .kontainerKonten .konten2 .gambar2{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+main .kontainerKonten .konten3 .gambar3{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+main .kontainerKonten .konten3 .gambar3 .gambar3a img{
+    width: 400px;
+    margin-right: 10px;
+}
+
+main .kontainerKonten .konten3 .gambar3 .gambar3b img{
+    width: 240px;
+}
+
+main .kontainerKonten .konten3 .gambar3 .gambar3c img{
+    width: 400px;
+}
+
+main .kontainerKonten .konten4 .produk ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .kontainerKonten .konten4 .produk ul li{
+    list-style: none;
+    margin: 20px;
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    border-bottom: 2px solid rgb(116, 116, 116);
+}
+
+main .kontainerKonten .konten4 .produk ul li:hover{
+    color: red;
+}
+
+footer{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .kontainerFooter{
+    border-top: 5px rgb(169, 169, 169) solid;
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+footer .kontainerFooter ul li{
+    list-style: none;
+    color: rgb(116, 116, 116);
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+footer .kontainerFooter ul li:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+footer .kontainerFooter .footer4 .email{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer .kontainerFooter .footer4 .email input.email{
+    width: 200px;
+    height: 30px;
+}
+
+footer .kontainerFooter .footer4 .email button.email{
+    width: 206px;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    background-color: maroon;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+footer .kontainerFooter .footer5 .sosmed img{
+    width: 30px
+}
+
+
+footer .kontainerFooter .footer5 .downloads{
+    cursor: pointer;
+}
+
+footer .kontainerFooter .footer5 .downloads img{
+    width: 100px
+}
+
